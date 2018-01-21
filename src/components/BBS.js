@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import * as firebase from 'firebase';
 
+import LoginScreen from './LoginScreen';
+
+
 export default class BBS extends Component {
 
   componentDidMount() {
